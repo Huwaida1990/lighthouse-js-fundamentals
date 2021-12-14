@@ -16,3 +16,9 @@ for (let i = ingredients.length -1; i !== -1; i--) {
   const element = ingredients[i];
   console.log(element);
 }
+const range = function(start, end, step) {
+  const result = []
+  for (let i = start; i <= end; i += step) {
+    result.push(i);
+  }
+  return result;
